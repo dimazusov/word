@@ -4,7 +4,6 @@ import declension
 import parse
 app = Flask(__name__)
 
-
 # на вход слово, на выход возможные варианты
 @app.route("/parse/<word>")
 def parseRoute(word):
